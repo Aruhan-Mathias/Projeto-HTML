@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style-inscricao.css" />
+    <!-- Fonte -->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <title>Projeto Soulcode</title>
+</head>
+<body>
+    <nav>
+        <!-- Menu  -->
+        <ul class="menu">
+            <li>
+                <a href="#"> <img src="imagens/logosoulcode.png" ></a>
+            </li>
+            <li><a href="#" id="home">HOME</a>
+
+            </li>
+            <li><a href="#todosCursos" id="cursos">CURSOS</a>
+                <ul>
+                    <!-- SubMenus -->
+                    <li><a href="#design">Design</a></li>
+                    <!-- Fazer Âncoras em cada curso aqui -->
+                    <li><a href="#desenvolvimento">Desenvolvimento </a></li>
+                    <li><a href="#ti">TI e Software</a></li>
+                    <li><a href="#devPessoal">Desenvolvimento Pessoal</a></li>
+                </ul>
+            </li>
+            <li><a href="#ancoraContato" id="contato">CONTATO</a></li>
+            <!-- Fazer âncora aqui também -->
+        </ul>
+        <div id="divBusca">
+            <!-- barra de busca -->
+
+            <input type="text" id="txt" placeholder="Buscar...">
+
+            <button id="btnBusca">Buscar</button>
+            <!-- botão do busca -->
+        </div>
+    </nav>
+    <div>
+        <img src="fundo02.png" id="fundo02" alt=""> <!--- (foi uma alternativa sem sucesso de adicionar uma imagem no bg) --->
+    </div>
+
+     <section>
+        <div>
+            <img src="imagens/fundo-matricula.jpg" id="fundo-matricula">
+            <h1 align="left">Seja um SoulCoder:</h1><br>
+
+        </div>
+         <!--- inicio da tabela de cadastro --->
+        <table id="tabela">
+            
+            <form id="formulario">
+                <tr>
+                    <td><input type="text" title="Nome Completo" placeholder="Nome Completo*"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" title="Idade" placeholder="Idade*"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" title="Email" placeholder="Email*"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" title="Gênero" placeholder="Gênero*" list="Genero">
+                        <datalist id="Genero">
+                    <option>Masculino</option>
+                    <option>Feminino</option>
+                    <option>Personalizado</option>
+                 </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="300px"><input type="text" title="Telefone" placeholder="DDD + Telefone*"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" title="CPF" placeholder="CPF*"></td>
+                </tr>
+  
+                <tr>
+                    <td>
+                        <input type="text" title="Estado" id="Estado" list="lista_estado" placeholder="Estado*">
+                        <datalist id="lista_estado">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espirito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="text" title="Cidade" placeholder="Cidade*"></td>
+                </tr>
+                <tr>
+                    <td><input list="curso" type="text" title="Cursos" placeholder="Curso (1 x inscrição)*"></td>
+                    <datalist id="curso">
+                    <option value="Adobe Photoshop">
+                    <option value="AutoCAD">
+                    <option value="UX e UI">
+                    <option value="Corel Draw">
+                    <option value="HTML/CSS">
+                    <option value="JavaScript e JQuery"></option>
+                    <option value="Java e Orientação a Objetos"></option>
+                    <option value="Android"></option>
+                    <option value="Manutenção de Computadores"></option>
+                    <option value="Redes de Computadores"></option>
+                    <option value="Algoritmos e Lógica de Programação"></option>
+                    <option value="Python"></option>
+                    <option value="Inteligência Emocional"></option>
+                    <option value="Gestão de Pessoas"></option>
+                    <option value="Como falar bem em Público"></option>
+                    <option value="Gestão do Tempo"></option>
+                </datalist>
+                    <tr>
+                        <td><input title="Comprovante de Endereço" placeholder="Comprovante de endereço*">
+                            <a href="#" title="anexar"><img src="imagens/clipe.png"></a>
+                            <!--- icone para anexar (não funcional) ---> 
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input title="Cópia da identidade" placeholder="Cópia da identidade*">
+                            <a href="#" title="anexar"><img src="imagens/clipe.png"></a>
+                            <!--- icone para anexar02 (não funcional) --->
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td>
+                            <textarea id="msg" title="Deixe sua Mensagem" placeholder="Deixa sua mensagem"></textarea>
+                        </td>
+                    </tr>
+                    <td>
+                        <footer for="btnSoulCode" align="center">
+                            <!--- botão de envio do formulário --->
+                            <button type="submit" id="btnSoulCode" title="Seja Um SoulColder">#TeamSoulCode</button>
+                        </footer>
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </section> 
+ 
+</body>
+</html>

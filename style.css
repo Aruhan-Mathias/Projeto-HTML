@@ -1,0 +1,569 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    /* background-image: radial-gradient(circle at 50% -20.71%, #dff0db 0, #dbf0dd 6.25%, #d8f1e0 12.5%, #d5f1e3 18.75%, #d3f2e6 25%, #d1f2e9 31.25%, #cff2ec 37.5%, #cef2ef 43.75%, #cdf2f2 50%, #cdf2f5 56.25%, #cdf1f8 62.5%, #cef1fa 68.75%, #cff0fc 75%, #d1f0fe 81.25%, #d3efff 87.5%, #d6eeff 93.75%, #d9edff 100%); */
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+}
+
+nav {
+    background-color: #3cb4c4;
+    float: left;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.menu {
+    list-style: none;
+    float: left;
+    height: 90px;
+}
+
+.menu img {
+    float: none;
+    margin-top: -63px;
+    width: 150px;
+    height: 150px;
+}
+
+.menu li div {
+    padding-right: 0px;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+    padding-top: -20px;
+}
+
+.menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 25px;
+    padding: 1px 50px 1px;
+    display: block;
+}
+
+.menu li a:hover {
+    color: #f8c100;
+}
+
+.menu li ul {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: #3cb4c4;
+    display: none;
+    list-style-type: none;
+}
+
+.menu li:hover ul,
+menu li.over ul {
+    display: block;
+}
+
+#divBusca {
+    float: right;
+    margin-top: 20px;
+}
+
+#txt {
+    float: left;
+    background-color: #ffffff;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 12px;
+    width: 191px;
+    outline: none;
+    margin-top: 12px;
+}
+
+
+/* Botões da pag*/
+
+#btnBusca {
+    background: #f8c100;
+    border: none;
+    height: 32px;
+    border-radius: 0 7px 7px 0;
+    width: 90px;
+    font-weight: bold;
+    margin-right: 70px;
+    margin-top: 12px;
+}
+
+#btnSaibaMais {
+    float: right;
+    background-color: #F7F7F7;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #000000;
+    width: 60px;
+    height: 30px;
+    margin-right: 290px;
+    margin-top: 20px;
+    text-decoration: transparent;
+}
+
+#btnSoulCode {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #3cb4c4;
+    font: italic bold 26px/1 sans-serif;
+    text-align: center;
+}
+
+#btnSoulCode:hover {
+    text-shadow: 1px 1px #93aaad;
+    animation-duration: 12s;
+}
+
+
+/*Fim dos botões da pag*/
+
+section {
+    padding: 10px;
+}
+
+mark {
+    background-color: #f8c100;
+}
+
+.line {
+    background-color: #3cb4c4;
+    margin-top: 100px;
+    width: 100%;
+    height: 2px;
+}
+
+#container {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    background-image: url(imagens/fundo01.jpg);
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#container p {
+    text-align: center;
+    font-size: 15px;
+}
+
+#container button {
+    margin-left: 295px;
+    font-weight: bold;
+    background: #f8c100;
+    border: 1px;
+    width: 125px;
+    height: 32px;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 29px;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 40px;
+    color: #3cb4c4;
+}
+
+#h2 {
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 80px;
+    padding-top: 40px;
+    color: #444444;
+}
+
+#u {
+    color: #7B66CF;
+}
+
+#home,
+#cursos,
+#contato {
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+}
+
+#lupa {
+    width: 20px;
+    height: 20px;
+}
+
+b {
+    color: #f8c100;
+}
+
+#nossoManifesto {
+    padding: 80px 0 80px 0;
+    text-align: left;
+}
+
+#nossoManifesto2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-left: 58px;
+    color: #3cb4c4;
+}
+
+#nossoManifesto3 {
+    font-size: 20px;
+    padding-left: 100px;
+    color: #444444;
+}
+
+#nossoManifesto4 {
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+#fundo-saiba-mais {
+    width: 500px;
+    height: 295px;
+}
+
+#conheca {
+    text-align: center;
+    padding-top: 65px;
+}
+
+
+/* Fabricio informações */
+
+.fabricio-fundo {
+    background-color: #F9F8F8;
+}
+
+#fabriciofoto {
+    padding-left: 150px;
+    padding-top: 70px;
+    width: 250px;
+    height: 245px;
+}
+
+#fabricio1 {
+    font-size: 25px;
+    padding-top: 100px;
+    padding-right: 600px;
+    color: #444444;
+    padding-left: 300x;
+    text-align: left;
+    margin-left: 430px;
+    padding-right: 100px;
+}
+
+#fabricio2 {
+    font-size: 18px;
+    color: #7B66CF;
+    padding-bottom: 15px;
+    padding-right: 780px;
+    text-align: left;
+    margin-left: 430px;
+    padding-right: 100px;
+}
+
+#txt1 {
+    font-size: 14px;
+    padding-right: 550px;
+    color: #444444;
+    text-align: left;
+    margin-left: 430px;
+    padding-right: 100px;
+}
+
+
+/* Fim fabrício informações */
+
+
+/* Carmela informações*/
+
+#carmelafoto {
+    padding-top: 70px;
+    width: 250px;
+    height: 250px;
+    padding-right: 100px;
+}
+
+#carmela1 {
+    font-size: 25px;
+    padding-top: 70px;
+    text-align: right;
+    padding-right: 370px;
+}
+
+#carmela2 {
+    font-size: 18px;
+    color: #7B66CF;
+    display: inline-block;
+    padding-right: 23px;
+    float: right;
+}
+
+#txt3 {
+    padding-left: 450px;
+    padding-top: 30px;
+    font-size: 14px;
+    text-align: left;
+    padding-bottom: 90x;
+}
+
+
+/* Fim carmal informações */
+
+
+/* Juana informações */
+
+#juanafoto {
+    padding-left: 150px;
+    padding-top: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+#juana1 {
+    font-size: 25px;
+    padding-top: 100px;
+    padding-right: 150px;
+    padding-left: 400px;
+    color: #444444;
+    text-align: left;
+}
+
+#juana2 {
+    font-size: 18px;
+    color: #7B66CF;
+    padding-bottom: 15px;
+    padding-left: 400px;
+    text-align: left;
+}
+
+#txt5 {
+    font-size: 14px;
+    padding-left: 400px;
+    color: #444444;
+    text-align: left;
+}
+
+
+/* Fim juana informações */
+
+#tabela {
+    background-color: #3cb4c4;
+    margin: auto;
+    width: 800px;
+    padding: 10px;
+}
+
+#msg {
+    height: 150px;
+}
+
+textarea,
+input {
+    border: #ffffff;
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+}
+
+input:hover {
+    background-color: rgb(196, 245, 247);
+}
+
+
+/* CSS DA DAMARIS */
+
+#divBusca img {
+    padding-top: 4px;
+    float: left;
+}
+
+#descri,
+#desenvolvimento,
+#ti,
+#devPessoal {
+    padding: 100px 0 30px 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 45;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#design {
+    font-family: 'Nunito', sans-serif;
+    font-size: 45;
+    padding: 80px;
+    text-align: center;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 100px;
+}
+
+.cursos1 {
+    float: center;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 80px;
+}
+
+#todosCursos {
+    align: center;
+}
+
+.badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.badge-lista {
+    display: flex;
+    justify-content: center;
+}
+
+.badge>span {
+    text-align: center;
+    max-width: 200px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+}
+
+#cursos {
+    clear: both;
+}
+
+
+/* ESTILO DEPOIMENTOS */
+
+#depoimentos {
+    color: gold;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+#ana {
+    padding-left: 50px;
+    vertical-align: top;
+    width: 200px;
+}
+
+#flavia {
+    padding-left: 50px;
+    vertical-align: top;
+    width: 200px;
+}
+
+#damaris {
+    padding-left: 50px;
+    vertical-align: top;
+    width: 200px;
+}
+
+#wallace {
+    padding-left: 50px;
+    vertical-align: top;
+    width: 200px;
+}
+
+#aruhan {
+    padding-left: 50px;
+    vertical-align: top;
+    width: 200px;
+}
+
+#img {
+    border-radius: 300px;
+}
+
+#depoimentosAlunos {
+    align-items: center;
+    margin-top: 46px;
+}
+
+#tabela {
+    align-items: center;
+    margin-top: 55px;
+}
+
+#desenvolvedorJunior {
+    color: #7B66CF;
+}
+
+.nomesDepo {
+    text-align: center;
+}
+
+
+/* Formulário */
+
+#faleconoscoEsquerda {
+    text-align: left;
+    width: 450px;
+    float: left;
+    padding: 70px 0 0 60px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#faleconoscoDireita {
+    padding-top: 5px;
+    width: 200px;
+}
+
+#nosacompanhe {
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+#imagensRodape {
+    margin-bottom: 5px;
+    padding-left: 33px;
+}
+
+section table {
+    background: #3cb4c4;
+}
+
+
+/* RODAPÉ */
+
+#footer {
+    background-color: #3cb4c4;
+}
+
+#ancoraContato {
+    color: white;
+    text-align: center;
+}
+
+#rodape {
+    text-align: center;
+    color: white;
+}
+
+#textoBranco {
+    color: white;
+}
