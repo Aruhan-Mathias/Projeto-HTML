@@ -8,5 +8,4 @@ Projeto Final do Módulo de HTML da [SoulCode Academy](https://soulcodeacademy.o
 <div> 
   <img src="imagens/homepage.png">
   </div>
-Projeto Desenvolvido em Grupo: @Aruhan-Mathias @Ana @Damaris @Flavia @Wallace-Virginio 
-
+<div align="center"> Projeto Desenvolvido em Grupo: @Aruhan-Mathias @Ana @Damaris @Flavia @Wallace-Virginio  </div>
