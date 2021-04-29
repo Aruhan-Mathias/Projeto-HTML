@@ -1,10 +1,12 @@
 # Projeto-HTML
 
-Primeiro projeto apresentado no BootCamp da [SoulCode Academy](https://soulcodeacademy.org/) com foco total em HTML 
-
-O intuito do projeto era apresentar uma nova Página para a SoulCode 
+Projeto Final do Módulo de HTML da [SoulCode Academy](https://soulcodeacademy.org/) - O intuito do projeto foi apresentar uma nova proposta para o site da SoulCode. 
 
 ---
-[Imagem da Home Page](https://ibb.co/W67sj2Y)
+**Tecnologias utilizadas:** HTML e CSS.
+
+<div> 
+  <img src="imagens/homepage.png">
+  </div>
 Projeto Desenvolvido em Grupo: @Aruhan-Mathias @Ana @Damaris @Flavia @Wallace-Virginio 
 
