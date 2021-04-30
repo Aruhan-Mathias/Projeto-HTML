@@ -146,7 +146,7 @@ mark {
 #container {
     font-size: 35px;
     color: rgb(255, 255, 255);
-    background-image: url(imagens/fundo01.jpg);
+    background-image: url(../imagens/fundo01.jpg);
     width: 100%;
     height: 650px;
     display: flex;
